@@ -1,53 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
 *{
     margin: 0;
+    padding: 0;
 }
 body{
-    text-align: center;
+    padding-top: 64px;
     font-family: 'Open Sans', sans-serif;
-}
-#hero{
-    width: 592px;
-    margin: 0 auto 72px;
-}
-#hero img{
-    margin-bottom: 72px;
-}
-span, a{
-    color: #FF9900;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 main{
-    height: 579px;
-    border: 1px solid black;
-    display: block;
-    margin: 72px;
+    width: 626px;
+    margin-bottom: 64px;
+    /* border: 1px solid black; */
 }
 h1{
-    font-family: 'Inter', sans-serif;
+    color: #3F3D56;
+    font-family: 'Dosis', sans-serif;
+    font-size: 32px;
     font-weight: normal;
-    font-size: 49px;
-    line-height: 56px;
-    margin-bottom: 32px;
+    margin: 32px auto 16px;
 }
 h1 span{
+    color: #EE24FF;
     font-weight: bold;
 }
-p, footer{
-    font-size: 14px;
-    line-height: 28px;
-    color: #7D7987;
+p{
+    color: #828282;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 32px;
 }
-footer a + a{
-    margin-left: 28px;
+p span{
+    color: #3F3D56;
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 42px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #3F3D56;
 }
 #line{
-    border: 1px #ECEFF2 solid;
     height: 0;
-    width: 568px;
+    width: 391px;
+    border: 1px #ECEFF2 solid;
     margin: 0 auto 8px;
 }
-#balls{
-    position: fixed;
-    bottom: 0;
-    right: 0;
+#wave{
+    width: 100%;
 }
